@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some ala Mondrian Composition</title>
+    <style>
+
+        .grid-container {
+            display: grid;
+            height: 590px;
+            width: 655px;
+            background-color: black;
+            grid-template-columns: 70px 100px 100px 80px 80px 80px;
+            grid-template-rows: 100px 100px 100px 80px 80px 80px;
+            gap: 10px;
+        }
+
+        .white1, .white2 {
+            background-color: white;
+            grid-column: span 2;
+        }
+
+        .white2 {
+            background-color: white;
+        }
+
+        .yellow1 {
+            background-color: #F9D01E;
+            grid-column: span 2;
+        }
+
+        .white3 {
+            background-color: white;
+            grid-column:7;
+        }
+
+        .white4 {
+            background-color: white;
+            grid-row: span 2;
+        }
+
+        .red {
+            background-color: #E72F24;
+            grid-column: span 3;
+            grid-row: span 3;
+        }
+
+        .yellow2 {
+            background-color: #F9D01E;
+            grid-column: span 2;
+        }
+
+        .white5 {
+            background-color: white;
+            grid-row: span 4;
+        }
+        .white6, .white7 {
+            background-color: white;
+            grid-row: span 2;
+        }
+
+        .blue {
+            background-color: #004592;
+            grid-column: span 2;
+        }
+
+        .yellow3 {
+            background-color: #F9D01E;
+            grid-area: 6/1/6/5;
+        }
+
+        .white8 {
+            background-color: white;
+            grid-area: 5/3/5/5;
+        }
+
+        .blue1 {
+            background-color: #004592;
+        }
+
+        .red1 {
+            background-color: #E72F24;
+            grid-row-start: span ;
+        }
+
+        .yellow4 {
+            background-color: #F9D01E;
+        }
+        .white10 {
+            background-color: white;
+            grid-area: 5/2/5/2;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="white1"></div>
+        <div class="white2"></div>
+        <div class="yellow1"></div>
+        <div class="white3"></div>
+        <div class="white4"></div>
+        <div class="red"></div>
+        <div class="yellow2"></div>
+        <div class="white5"></div>
+        <div class="white6"></div>
+        <div class="white7"></div>
+        <div class="blue"></div>
+        <div class="yellow3"></div>
+        <div class="white8"></div>
+        <div class="white9"></div>
+        <div class="white10"></div>
+        <div class="blue1"></div>
+        <div class="red1"></div>
+        <div class="yellow4"></div>
+    </div>
+    
+    
+</body>
+</html>
